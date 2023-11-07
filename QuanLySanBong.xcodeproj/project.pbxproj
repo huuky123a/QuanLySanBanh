@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B87A71F2AF8E13800FC4014 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B87A71E2AF8E13700FC4014 /* TableViewCell.swift */; };
+		0B87A7212AF8E28300FC4014 /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B87A7202AF8E28300FC4014 /* TableViewCellController.swift */; };
+		0B8B61602AF7FE170071B147 /* TrangChuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B615F2AF7FE170071B147 /* TrangChuViewController.swift */; };
 		0BC725762AEFA18F004AB3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC725752AEFA18F004AB3E8 /* AppDelegate.swift */; };
 		0BC725782AEFA18F004AB3E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC725772AEFA18F004AB3E8 /* SceneDelegate.swift */; };
 		0BC7257A2AEFA18F004AB3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC725792AEFA18F004AB3E8 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B87A71E2AF8E13700FC4014 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0B87A7202AF8E28300FC4014 /* TableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		0B8B615F2AF7FE170071B147 /* TrangChuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangChuViewController.swift; sourceTree = "<group>"; };
 		0BC725722AEFA18F004AB3E8 /* QuanLySanBong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLySanBong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC725752AEFA18F004AB3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC725772AEFA18F004AB3E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 		0BC725742AEFA18F004AB3E8 /* QuanLySanBong */ = {
 			isa = PBXGroup;
 			children = (
+				0B8B615F2AF7FE170071B147 /* TrangChuViewController.swift */,
 				0BC725752AEFA18F004AB3E8 /* AppDelegate.swift */,
 				0BC725772AEFA18F004AB3E8 /* SceneDelegate.swift */,
 				0BC725792AEFA18F004AB3E8 /* ViewController.swift */,
@@ -106,6 +113,8 @@
 				0BC7257E2AEFA199004AB3E8 /* Assets.xcassets */,
 				0BC725802AEFA199004AB3E8 /* LaunchScreen.storyboard */,
 				0BC725832AEFA199004AB3E8 /* Info.plist */,
+				0B87A71E2AF8E13700FC4014 /* TableViewCell.swift */,
+				0B87A7202AF8E28300FC4014 /* TableViewCellController.swift */,
 			);
 			path = QuanLySanBong;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B87A71F2AF8E13800FC4014 /* TableViewCell.swift in Sources */,
+				0B87A7212AF8E28300FC4014 /* TableViewCellController.swift in Sources */,
 				0BC7257A2AEFA18F004AB3E8 /* ViewController.swift in Sources */,
 				0BC725762AEFA18F004AB3E8 /* AppDelegate.swift in Sources */,
+				0B8B61602AF7FE170071B147 /* TrangChuViewController.swift in Sources */,
 				0BC725782AEFA18F004AB3E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
